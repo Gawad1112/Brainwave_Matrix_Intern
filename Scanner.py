@@ -23,7 +23,7 @@ TRUSTED_DOMAINS = {'paypal', 'google', 'microsoft', 'apple', 'amazon', 'netflix'
 
 def check_google_safe_browsing(url):
     """Checks the URL against Google's Safe Browsing database. Returns a list of threats or None."""
-    if not API_KEY or API_KEY == 'AIzaSyB-f-47s6IL9avQfwupBWZd5lNLQKDrI9c':
+    if not API_KEY or API_KEY == ''# Replace with your API Key:
         return ["Google Safe Browsing check skipped. API key not configured."]
 
     payload = {
@@ -219,3 +219,4 @@ if not url.startswith(('http://', 'https://')):
 # Scan the provided URL
 
 scan_url(url)
+
