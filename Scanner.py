@@ -8,7 +8,7 @@ import json
 # CONFIGURATION
 # =============================================================================
 # Replace this with your actual Google Safe Browsing API key
-API_KEY = 'AIzaSyB-f-47s6IL9avQfwupBWZd5lNLQKDrI9c'
+API_KEY = '' #replace with your API Key
 SAFE_BROWSING_API_URL = 'https://safebrowsing.googleapis.com/v4/threatMatches:find'
 
 # List of suspicious TLDs often used in phishing
@@ -217,4 +217,5 @@ if not url.startswith(('http://', 'https://')):
     print(f"Assuming HTTPS: {url}")
 
 # Scan the provided URL
+
 scan_url(url)
