@@ -37,7 +37,32 @@ A Python-Based Phishing Url detecion tool designed to detect and flag potentiall
       * Suspicious : http://secure.verify.account.update.amazon.com.fake-domain.xyz/login
   ## Contribution
     Pull requests are welcome! If you have ideas to improve detection or want to expand the tool, feel free to contribute.
-          
-  
-   
-        
+  ---------------------------------------------------------------------------------------------------------------------------------------------------
+  # Password Strength Checker
+    A comprehensive and user-friendly Password Strength Checker built with Python and Tkinter. This tool provides real-time analysis of password         security with detailed feedback and visual indicators.
+  ## Features
+  ### Real-time Password Analysis
+     * Instant feedback as you type
+     * Visual strength meter with color-coded progress bar
+     * Five-level strength assessment: Very Weak, Weak, Moderate, Strong, Very Strong
+     * Detailed feedback with specific improvement suggestions
+
+  ### Advanced Security Checks
+     * Length validation (8+ characters recommended)
+     * Character variety analysis (uppercase, lowercase, digits, special characters)
+     * Common password detection against a database of weak passwords
+     * Pattern recognition (sequential characters, repeated patterns)
+     * Entropy calculation for measuring unpredictability
+
+  ### User-Friendly Interface
+     * Clean, intuitive GUI built with Tkinter
+     * Show/hide password toggle for convenience
+     * Scrollable feedback area with comprehensive suggestions
+     * Password creation tips and best practices
+
+## Quick Start
+
+   ## Prerequisites 
+   * Python 3.6 or higher  
+   * Tkinter (Usually included with python installation)
+
